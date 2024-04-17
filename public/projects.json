@@ -52,5 +52,11 @@
         "title": "Arrival",
         "category": "Web development",
         "image": "images/project-9.png"
+    },
+    {
+        "id": 10,
+        "title": "Web images",
+        "category": "Photography",
+        "image": "images/project-9.png"
     }
 ]

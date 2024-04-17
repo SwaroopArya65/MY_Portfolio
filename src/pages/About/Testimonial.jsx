@@ -1,5 +1,5 @@
 
-const Testimonial = ({ name, avatar, testimonial }) => {
+const Testimonial = ({ name, degree, avatar, testimonial }) => {
   return (
     <li className="testimonials-item">
       <div className="content-card" data-testimonials-item>
@@ -7,6 +7,7 @@ const Testimonial = ({ name, avatar, testimonial }) => {
           <img src={avatar} alt={name} width="60" data-testimonials-avatar />
         </figure>
         <h4 className="h4 testimonials-item-title" data-testimonials-title>{name}</h4>
+        <p className="h4 testimonials-item-title" data-testimonials-title>{degree}</p>
         <div className="testimonials-text" data-testimonials-text>
           <p>{testimonial}</p>
         </div>

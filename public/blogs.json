@@ -40,5 +40,33 @@
         "date": "Feb 23, 2022",
         "image": "/images/blog-6.jpg",
         "description": "Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum."
+    },
+    {
+        "title": "UI interactions of the week",
+        "category": "Design",
+        "date": "Feb 23, 2022",
+        "image": "/images/blog-4.jpg",
+        "description": "Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "title": "UI interactions of the week",
+        "category": "Design",
+        "date": "Feb 23, 2022",
+        "image": "/images/blog-4.jpg",
+        "description": "Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "title": "UI interactions of the week",
+        "category": "Design",
+        "date": "Feb 23, 2022",
+        "image": "/images/blog-4.jpg",
+        "description": "Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "title": "UI interactions of the week",
+        "category": "Design",
+        "date": "Feb 23, 2022",
+        "image": "/images/blog-4.jpg",
+        "description": "Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi."
     }
 ]

@@ -29,8 +29,8 @@ const servicesData = [
 
 
 const About = () => {
-  const [testimonials , setTestimonials ] = useState([]);
-  useEffect(()=> {
+  const [testimonials, setTestimonials] = useState([]);
+  useEffect(() => {
     fetch('testimonials.json').then(res => res.json()).then(data => {
       console.log(data)
       setTestimonials(data)
@@ -39,38 +39,41 @@ const About = () => {
   return (
     <article className="about  active" data-page="about">
 
-    <header>
-      <h2 className="h2 article-title">About me</h2>
-    </header>
+      <header>
+        <h2 className="h2 article-title">About me</h2>
+      </header>
 
-    <section className="about-text">
-      <p>
-        I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-        I enjoy
-        turning complex problems into simple, beautiful and intuitive designs.
-      </p>
+      <section className="about-text">
+        <p>
+          I'm a self-driven full-Stack Developer with expertise in technologies like MVC,
+          Node.js, React.js, and Git. I have a proven track record of efficiently delivering
+          successful web development projects. I look forward to applying my knowledge and
+          skills to drive tangible results in a challenging work environment.
+        </p>
 
-      <p>
-        My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-        Moreover, I
-        add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-        across your
-        message and identity in the most creative way. I created web design for many famous brand companies.
-      </p>
-    </section>
+        <p>
+          A full stack developer with experience for over a year with knowledge of
+          the fundamentals of Python, C, C++, PHP, proficient with DSA as well as
+          Frontend (HTML, CSS, Bootstrap, Javascript, Ajax, jQuery, and ReactJs) and
+          Backend (NodeJs, ExpressJs and Laravel) technologies, well‐versed in
+          database management systems including MySQL, MongoDb, and Firebase
+          having the aptitude and drive to swiftly learn and use new technologies
+          and possessing strong problem‐solving abilities.
+        </p>
+      </section>
 
 
-    {/* <!--
+      {/* <!--
       - service
     --> */}
 
-    <section className="service">
+      <section className="service">
 
-      <h3 className="h3 service-title">What i'm doing</h3>
+        <h3 className="h3 service-title">What i'm doing</h3>
 
-      <ul className="service-list">
+        <ul className="service-list">
 
-      {servicesData.map((service, index) => (
+          {servicesData.map((service, index) => (
             <Service
               key={index}
               icon={service.icon}
@@ -79,86 +82,87 @@ const About = () => {
             />
           ))}
 
-      </ul>
+        </ul>
 
-    </section>
+      </section>
 
 
-    {/* <!--
+      {/* <!--
       - testimonials
     --> */}
 
-    <section className="testimonials">
+      <section className="testimonials">
 
-      <h3 className="h3 testimonials-title">Testimonials</h3>
+        <h3 className="h3 testimonials-title">Testimonials</h3>
 
-      <ul className="testimonials-list has-scrollbar">
+        <ul className="testimonials-list has-scrollbar">
 
-      {testimonials.map((testimonial, index) => (
+          {testimonials.map((testimonial, index) => (
             <Testimonial
               key={index}
               name={testimonial.name}
+              degree={testimonial.degree}
               avatar={testimonial.avatar}
               testimonial={testimonial.testimonial}
             />
           ))}
 
-      </ul>
+        </ul>
 
-    </section>
+      </section>
 
 
-    {/* <!--
+      {/* <!--
       - clients
     --> */}
 
-    <section className="clients">
+      <section className="clients">
 
-      <h3 className="h3 clients-title">Clients</h3>
+        <h3 className="h3 clients-title">Clients</h3>
 
-      <ul className="clients-list has-scrollbar">
+        <ul className="clients-list has-scrollbar">
 
-        <li className="clients-item">
-          <a href="#">
-            <img src="images/logo-1-color.png" alt="client logo"/>
-          </a>
-        </li>
+          <li className="clients-item">
+            <a href="#">
+              <img src="images/logo-1-color.png" alt="client logo" />
+            </a>
+          </li>
 
-        <li className="clients-item">
-          <a href="#">
-            <img src="images/logo-2-color.png" alt="client logo"/>
-          </a>
-        </li>
+          <li className="clients-item">
+            <a href="#">
+              <img src="images/logo-2-color.png" alt="client logo" />
+            </a>
+          </li>
 
-        <li className="clients-item">
-          <a href="#">
-            <img src="images/logo-3-color.png" alt="client logo"/>
-          </a>
-        </li>
+          <li className="clients-item">
+            <a href="#">
+              <img src="images/logo-3-color.png" alt="client logo" />
+            </a>
+          </li>
 
-        <li className="clients-item">
-          <a href="#">
-            <img src="images/logo-4-color.png" alt="client logo"/>
-          </a>
-        </li>
+          <li className="clients-item">
+            <a href="#">
+              <img src="images/logo-4-color.png" alt="client logo" />
+            </a>
+          </li>
 
-        <li className="clients-item">
-          <a href="#">
-            <img src="images/logo-5-color.png" alt="client logo"/>
-          </a>
-        </li>
+          <li className="clients-item">
+            <a href="#">
+              <img src="images/logo-5-color.png" alt="client logo" />
+            </a>
+          </li>
 
-        <li className="clients-item">
-          <a href="#">
-            <img src="images/logo-6-color.png"alt="client logo"/>
-          </a>
-        </li>
+          <li className="clients-item">
+            <a href="#">
+              <img src="images/logo-6-color.png" alt="client logo" />
+            </a>
+          </li>
 
-      </ul>
+        </ul>
 
-    </section>
+      </section>
 
-  </article>
+    </article>
   )
 }
 

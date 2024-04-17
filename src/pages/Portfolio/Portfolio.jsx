@@ -39,8 +39,8 @@ const Portfolio = () => {
 
             {/* Filter buttons */}
             <ul className="filter-list">
-                {['All', 'Web design', 'Applications', 'Web development'].map(category => (
-                    <li className="filter-item" key={category}>
+                {['All', 'Web design', 'Applications', 'Web development', 'Photography'].map(category => (
+                    <li className="filter-item de" key={category}>
                         <button
                             className={category === selectedCategory ? 'active' : ''}
                             onClick={() => handleFilterClick(category)}
@@ -57,7 +57,7 @@ const Portfolio = () => {
                 <ul className="project-list">
                     {filteredProjects.map(project => (
                         <li
-                            className="project-item active"
+                            className="project-item active de"
                             data-filter-item
                             data-category={project.category}
                             key={project.id}

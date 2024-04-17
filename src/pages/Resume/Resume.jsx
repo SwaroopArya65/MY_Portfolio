@@ -19,18 +19,21 @@ const Resume = () => {
                 </div>
                 <ol className="timeline-list">
                     <TimelineItem
-                        title="University school of the arts"
-                        date="2007 — 2008"
+                        title="Annada Collage Hazaribagh"
+                        subject="Bachlor Of Computer Application"
+                        date="2019 — 2022"
                         description="Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
                     />
                     <TimelineItem
-                        title="New york academy of art"
-                        date="2006 — 2007"
+                        title="Annada Collage Hazaribagh"
+                        subject="ISC Class 12th"
+                        date="2017 — 2018"
                         description="Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis."
                     />
                     <TimelineItem
-                        title="High school of art and design"
-                        date="2002 — 2004"
+                        title="Saraswati Shishu Vidya Mandir Barganda Giridih"
+                        subject="Class 10th"
+                        date="2010 — 2012"
                         description="Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos."
                     />
                 </ol>
@@ -45,18 +48,15 @@ const Resume = () => {
                 </div>
                 <ol className="timeline-list">
                     <TimelineItem
-                        title="Creative director"
-                        date="2015 — Present"
+                        title="BrightCode Software Services jharkhand Pvt.Ltd"
+                        project="School System"
+                        date="Oct 19-2023 to Jan 19-2024"
                         description="Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur."
                     />
                     <TimelineItem
-                        title="Art director"
-                        date="2013 — 2015"
-                        description="Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
-                    />
-                    <TimelineItem
-                        title="Web designer"
-                        date="2010 — 2013"
+                        title="Brain4ce Education Solutions Pvt. Ltd."
+                        project="Zomato Website Clone - Meal Website"
+                        date="Aug 01-2023 to Oct 01-2023"
                         description="Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
                     />
                 </ol>
@@ -67,8 +67,18 @@ const Resume = () => {
                 <ul className="skills-list content-card">
                     <SkillItem title="Web design" value={80} />
                     <SkillItem title="Graphic design" value={70} />
-                    <SkillItem title="Branding" value={90} />
-                    <SkillItem title="WordPress" value={50} />
+                    <SkillItem title="React" value={90} />
+                    <SkillItem title="Node Js" value={80} />
+                    <SkillItem title="Express Js" value={75} />
+                    <SkillItem title="MongoDB" value={77} />
+                    <SkillItem title="MySQL" value={75} />
+                    <SkillItem title="Java" value={80} />
+                    <SkillItem title="HTML5" value={95} />
+                    <SkillItem title="CSS" value={85} />
+                    <SkillItem title="JavaScript" value={80} />
+                    <SkillItem title="Bootstrap" value={78} />
+                    <SkillItem title="Taildwind CSS" value={70} />
+                    <SkillItem title="C++" value={80} />
                 </ul>
             </div>
         </section>

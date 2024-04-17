@@ -1,21 +1,25 @@
 [
     {
-        "name": "Daniel Lewis",
-        "avatar": "/images/avatar-1.png",
+        "name": "Suraj Verma",
+        "degree": "MCA",
+        "avatar": "/images/avtar2.11.png",
         "testimonial": "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client."
     },
     {
-        "name": "Jessica Miller",
-        "avatar": "/images/avatar-2.png",
+        "name": "Tazafful Ansari",
+        "degree": "MCA",
+        "avatar": "/images/avtar3.11.png",
         "testimonial": "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client."
     },
     {
-        "name": "Emily Evans",
-        "avatar": "/images/avatar-3.png",
+        "name": "Dilip verma",
+        "degree": "MCA",
+        "avatar": "/images/avtar4.11.png",
         "testimonial": "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client."
     },
     {
-        "name": "Henry William",
+        "name": "Ajay Rana",
+        "degree": "M-Tech",
         "avatar": "/images/avatar-4.png",
         "testimonial": "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client."
     }
