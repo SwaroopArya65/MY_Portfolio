@@ -3,7 +3,7 @@ Using advanced ML algorithms, it predict multiple diseases simultaneously, consi
 <h2>Some Screenshort of Project</h2>
 <p>Home Page</p>
 
-[Screenshot (151)](https://github.com/SwaroopArya65/MY_Portfolio/assets/113222829/d7e9e9c4-28df-448a-b1a1-d68cf5ba353f)
+![Screenshot (151)](https://github.com/SwaroopArya65/MY_Portfolio/assets/113222829/d7e9e9c4-28df-448a-b1a1-d68cf5ba353f)
 
 
 <p>Home Page</p>
