@@ -8,15 +8,15 @@ Using advanced ML algorithms, it predict multiple diseases simultaneously, consi
 
 <p>Home Page</p>
 
-![![Screenshot (152)](https://github.com/SwaroopArya65/MY_Portfolio/assets/113222829/44bf3ec5-a854-4593-ba6d-6e5a260031e2)
+![Screenshot (152)](https://github.com/SwaroopArya65/MY_Portfolio/assets/113222829/44bf3ec5-a854-4593-ba6d-6e5a260031e2)
 
 
 <p>Home Page</p>
 
-![![Screenshot (153)](https://github.com/SwaroopArya65/MY_Portfolio/assets/113222829/9ede7595-bd98-4ed9-a005-e3f84c4496ea)
+[![Screenshot (153)](https://github.com/SwaroopArya65/MY_Portfolio/assets/113222829/9ede7595-bd98-4ed9-a005-e3f84c4496ea)
 
 
 <p>Dashboard View</p>
 
-![![Screenshot (154)](https://github.com/SwaroopArya65/MY_Portfolio/assets/113222829/c24f1027-5183-4365-99c5-b9afe5426c78)
+[Screenshot (154)](https://github.com/SwaroopArya65/MY_Portfolio/assets/113222829/c24f1027-5183-4365-99c5-b9afe5426c78)
 
